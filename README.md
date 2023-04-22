@@ -1,38 +1,38 @@
-# Juego de Tic Tac Toe con Inteligencia Artificial
+# Tic Tac Toe Game with Artificial Intelligence
 
-Este repositorio contiene un juego de Tic Tac Toe con inteligencia artificial, programado en JavaScript utilizando el algoritmo Minimax.
+This repository contains a Tic Tac Toe game with artificial intelligence, programmed in JavaScript using the Minimax algorithm.
 
-## Descripción
+## Description
 
-El juego consiste en un tablero de 3x3 en el que dos jugadores, X y O, se turnan para colocar sus fichas en el tablero. El jugador que coloca tres fichas en línea (horizontal, vertical o diagonal) gana la partida.
+EThe game consists of a 3x3 board on which two players, X and O, take turns placing their tokens on the board. The player who places three tokens in a line (horizontal, vertical, or diagonal) wins the game.
 
-En este repositorio, el jugador O es programado con el algoritmo Minimax, que es una técnica utilizada en la teoría de juegos para encontrar la mejor jugada posible. El jugador X es controlado por el usuario.
+In this repository, player O is programmed with the Minimax algorithm, which is a technique used in game theory to find the best possible move. Player X is controlled by the user.
 
-## Cómo jugar
+## How to Play
 
-Para jugar al Tic Tac Toe con Inteligencia Artificial, sigue los siguientes pasos:
+To play the Tic Tac Toe game with Artificial Intelligence, follow these steps:
 
-1. Clona este repositorio en tu máquina local utilizando el comando `git clone https://github.com/jonpena/tictactoe-vanilla.git`.
-2. Abre el archivo `index.html` en tu navegador para iniciar el juego.
-3. Sigue las instrucciones en pantalla para colocar tus fichas en el tablero. El jugador X es controlado por el usuario, mientras que el jugador O es controlado por el algoritmo Minimax.
-4. El juego finaliza cuando uno de los jugadores coloca tres fichas en línea o cuando todas las casillas del tablero están llenas.
+1. Clone this repository on your local machine using the command git clone https://github.com/jonpena/tictactoe-vanilla.git.
+2. Open the index.html file in your browser to start the game.
+3. Follow the on-screen instructions to place your tokens on the board. Player X is controlled by the user, while player O is controlled by the Minimax algorithm.
+4. The game ends when one of the players places three tokens in a line or when all the cells on the board are filled.
 
-## Tecnologías utilizadas
+## Technologies Used
 
-El juego ha sido desarrollado utilizando las siguientes tecnologías:
+The game has been developed using the following technologies:
 
 - JavaScript
 - HTML
 - CSS
 
-## Contribución
+## Contribution
 
-Si quieres contribuir al desarrollo de este juego, por favor haz un fork del repositorio y envía tus cambios en forma de pull requests.
+If you want to contribute to the development of this game, please fork the repository and submit your changes as pull requests.
 
-## Licencia
+## License
 
-Este juego está licenciado bajo la licencia MIT. Ver el archivo LICENSE para más información.
+This game is licensed under the MIT License. See the LICENSE file for more information.
 
-## Créditos
+## Crédits
 
-Este juego ha sido desarrollado por [Jonathan Peña](https://github.com/jonpena/).
+This game has been developed by [Jonathan Peña](https://github.com/jonpena/).
