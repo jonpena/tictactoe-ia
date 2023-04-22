@@ -10,7 +10,7 @@ const btnMode1 = document.querySelector('#menu .menu-secondary .mode-1');
 const btnMode2 = document.querySelector('#menu .menu-secondary .mode-2');
 
 let playerTurn = true;
-let artificial = false;
+let artificial = true;
 let firstTurn = true;
 
 /* Matrix represented as a one-dimensional array*/
@@ -177,16 +177,16 @@ function restartGame() {
 
 function controlWinnerAnimation() {
   const winnerText = document.querySelector(
-    '#menu .menu-container .winner__text'
+    '#menu .menu-container .winner-text'
   );
 
   if (Validation(2) != 0) {
     switch (Validation(2)) {
       case 2:
-        winnerText.innerHTML = 'PLAYER 1 WON';
+        winnerText.innerHTML = artificial ? 'PLAYER WON' : 'PLAYER 1 WON';
         break;
       case -2:
-        winnerText.innerHTML = 'PLAYER 2 WON';
+        winnerText.innerHTML = artificial ? 'BOT WON' : 'PLAYER 2 WON';
         break;
       case 1:
         winnerText.innerHTML = 'IT´S A TIE';
@@ -282,15 +282,13 @@ iconMenu.addEventListener('click', () => {
 });
 
 btnMode1.addEventListener('click', () => {
-  playerTurn = true;
-  artificial = false;
+  artificial = true;
   btnMode1.style.backgroundColor = '#283148';
   btnMode2.style.backgroundColor = 'transparent';
 });
 
 btnMode2.addEventListener('click', () => {
-  playerTurn = true;
-  artificial = true;
+  artificial = false;
   btnMode2.style.backgroundColor = '#283148';
   btnMode1.style.backgroundColor = 'transparent';
 });
