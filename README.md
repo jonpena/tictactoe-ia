@@ -4,7 +4,7 @@ This repository contains a Tic Tac Toe game with artificial intelligence, progra
 
 ## Description
 
-EThe game consists of a 3x3 board on which two players, X and O, take turns placing their tokens on the board. The player who places three tokens in a line (horizontal, vertical, or diagonal) wins the game.
+The game consists of a 3x3 board on which two players, X and O, take turns placing their tokens on the board. The player who places three tokens in a line (horizontal, vertical, or diagonal) wins the game.
 
 In this repository, player O is programmed with the Minimax algorithm, which is a technique used in game theory to find the best possible move. Player X is controlled by the user.
 
